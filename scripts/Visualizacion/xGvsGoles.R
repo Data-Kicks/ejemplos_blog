@@ -1,6 +1,6 @@
 # Instalamos y cargamos los paquetes necesarios ---------------------------
 
-packages.cran = c("tidyverse")
+packages.cran = c("tidyverse", "ggtext")
 inst <- packages.cran %in% installed.packages()
 if(length(packages.cran[!inst]) > 0) install.packages(packages.cran[!inst])
 lapply(packages.cran, require, character.only=T)
@@ -35,9 +35,11 @@ ggplot(xg.goles.laliga) +
              color = rgb(0.7,0.2,0.1), 
              size = 2) +
   coord_flip() +
-  labs(title = "xG vs Goles") +
+  labs(title = "<span style='color:#b3331a;'>xG</span> 
+                vs 
+                <span style='color:#33b31a;'>Goles</span>") +
   theme_fivethirtyeight() +
-  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.title = element_markdown(lineheight = 1.1, hjust = 0.5)) +
   xlab("") +
   ylab("")
 
