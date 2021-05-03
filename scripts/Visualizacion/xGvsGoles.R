@@ -1,3 +1,5 @@
+# Entrada: [Visualización] xG vs Goles - 02/05/2021  - https://data-kicks.com/index.php/2021/05/02/visualizacion-xg-vs-goles/
+
 # Instalamos y cargamos los paquetes necesarios ---------------------------
 
 packages.cran = c("tidyverse", "ggtext")
