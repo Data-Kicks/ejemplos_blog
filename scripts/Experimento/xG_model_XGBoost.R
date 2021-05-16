@@ -1,4 +1,4 @@
-# Entrada: [Experimento] Modelo xG con XGBoost - Fecha - url
+# Entrada: [Experimento] Creando nuestro propio modelo xG - 16/05/2021 - https://data-kicks.com/index.php/2021/05/16/experimento-creando-nuestro-propio-modelo-xg/
 
 # Instalamos y cargamos los paquetes necesarios ---------------------------
 
