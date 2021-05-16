@@ -1,0 +1,7 @@
+"X.1","id","minute","result","X","Y","xG","player","h_a","player_id","situation","year","shotType","match_id","h_team","a_team","h_goals","a_goals","date","player_assisted","lastAction"
+1,27374,78,"Goal",0.926999969482422,0.557000007629395,0.432699590921402,"Luca Caldirola","a",3,"OpenPlay",2014,"LeftFoot",5320,"Eintracht Frankfurt","Werder Bremen",5,2,"2014-12-07","Fin Bartels","Pass"
+2,24479,76,"BlockedShot",0.839000015258789,0.535999984741211,0.0246946010738611,"Sandro Wagner","h",11,"FromCorner",2014,"RightFoot",5450,"Hertha Berlin","Werder Bremen",2,2,"2014-08-23",NA,"Aerial"
+3,25910,82,"OwnGoal",0.0340000009536743,0.435,0,"Sandro Wagner","h",11,"SetPiece",2014,"Head",5383,"Hertha Berlin","VfB Stuttgart",3,2,"2014-10-03",NA,"Card"
+4,26391,79,"MissedShots",0.855999984741211,0.263999996185303,0.0308241955935955,"Sandro Wagner","h",11,"SetPiece",2014,"LeftFoot",5405,"Hertha Berlin","Hamburger SV",3,0,"2014-10-25","Hajime Hosogai","Chipped"
+5,29482,85,"MissedShots",0.761999969482422,0.620999984741211,0.0461247675120831,"Sandro Wagner","a",11,"OpenPlay",2014,"LeftFoot",5275,"Mainz 05","Hertha Berlin",0,2,"2015-02-07","Julian Schieber","Chipped"
+6,28620,92,"MissedShots",0.798000030517578,0.605999984741211,0.041759617626667,"Sandro Wagner","h",11,"OpenPlay",2014,"LeftFoot",5287,"Hertha Berlin","Freiburg",0,2,"2015-02-15","Valentin Stocker","Pass"
