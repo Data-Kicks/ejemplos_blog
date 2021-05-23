@@ -10,7 +10,6 @@ lapply(packages.cran, require, character.only=T)
 
 packages.git <- c("FC.rSTATS")
 if(packages.git[[1]] %in% installed.packages() == F) devtools::install_github("FCrSTATS/fc.rstats")
-if(packages.git[[2]] %in% installed.packages() == F) devtools::install_github("ewenme/understatr")
 if(length(packages.git[!inst]) > 0) install.packages(packages.git[!inst])
 lapply(packages.git, require, character.only=T)
 
