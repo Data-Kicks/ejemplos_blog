@@ -2,7 +2,7 @@
 
 # Instalamos y cargamos los paquetes necesarios ---------------------------
 
-packages.cran = c("tidyverse", "datapasta", "hrbrthemes", "viridis", "plotly")
+packages.cran = c("tidyverse", "datapasta", "hrbrthemes", "viridis")
 inst <- packages.cran %in% installed.packages()
 if(length(packages.cran[!inst]) > 0) install.packages(packages.cran[!inst])
 lapply(packages.cran, require, character.only=T)
