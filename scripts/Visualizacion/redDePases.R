@@ -2,7 +2,7 @@
 
 # Instalamos y cargamos los paquetes necesarios ---------------------------
 
-packages.cran = c("tidyverse", "devtools", "xml2", "plotly", "Cairo")
+packages.cran = c("tidyverse", "devtools", "xml2", "plotly")
 inst <- packages.cran %in% installed.packages()
 if(length(packages.cran[!inst]) > 0) install.packages(packages.cran[!inst])
 lapply(packages.cran, require, character.only=T)
@@ -56,7 +56,10 @@ findUniRelations <- function(pass.data){
   return(pass.data)
 }
 
+
 ## Alavés - Valencia
+
+### Leemos el xml
 alaves.valencia.pases.xml <- read_xml("data/Alaves_Valencia_20_21_LaLiga.xml")
 
 alaves.valencia.pases.desc <- as.data.frame(cbind(tipo = getVar("label", "group", alaves.valencia.pases.xml),
@@ -112,6 +115,7 @@ alaves.pases.grafo <- alaves.pases.relacion.uni %>%
          jug.2.y = y.y,
          jug.2.tot.pases = pases)
 
+### Dibujamos el grafo sobre el campo
 alaves.grafo <- create_Pitch(goaltype = "box",
                              grass_colour = "#3CB44C", 
                              line_colour =  "white", 
